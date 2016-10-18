@@ -15,7 +15,17 @@ sudo apt-get update
 
 
 # -----Basic module----
-sudo apt-get install -y git
+sudo apt-get install -y git curl
 
 
 # -----Emacs-------
+sudo apt-get install -y emacs24
+
+
+#Install Postgres
+sudo apt-get install -y postgresql postgresql-contrib
+
+
+# -----Python--------
+sudo apt-get -y install python3-pip
+sudo pip3 install virtualenv

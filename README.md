@@ -7,7 +7,7 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://####
+git clone https://github.com/myprak/3dksetup.git
 ./setup/setup.sh   
 ```
 
