@@ -8,7 +8,9 @@ export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 sudo locale-gen en_US.UTF-8
-sudo dpkg-reconfigure locales
+
+#Unnecessary in Ubuntu 16.04
+#sudo dpkg-reconfigure locales
 
 # Get ready for update
 sudo apt-get update
