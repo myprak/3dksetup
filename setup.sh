@@ -26,7 +26,8 @@ sudo apt-get install -y emacs24
 
 #Install Postgres
 sudo apt-get install -y postgresql postgresql-contrib
-
+sudo apt-get install libpq-dev
+sudo apt-get install python-psycopg2
 
 # -----Python--------
 sudo apt-get -y install python3-pip
