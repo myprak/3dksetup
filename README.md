@@ -8,7 +8,7 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/myprak/3dksetup.git
-./setup/setup.sh   
+./3dksetup/setup.sh   
 ```
 
 See also http://###dotfile
